@@ -21,8 +21,4 @@
     <None Include="EasyMediator/docs/README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="docs\" />
-  </ItemGroup>
-
 </Project>
