@@ -33,5 +33,5 @@ jobs:
         run: |
           dotnet pack src/EasyMediator/EasyMediator.csproj --configuration Release --no-build -o out
           dotnet nuget push out/*.nupkg \
-            --api-key ${{ secrets.NUGET_API_KEY }} \
+            --api-key ${{ secrets.NUGET_EASYMEDIATOR_API_KEY }} \
             --source https://api.nuget.org/v3/index.json
