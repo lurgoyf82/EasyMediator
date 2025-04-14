@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>EasyMediator</AssemblyName>
+    <RootNamespace>EasyMediator</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>https://github.com/lurgoyf82/</Authors>
+    <Company>RaPHP.net</Company>
+    <Description>A blazing fast, dependency-free mediator library for .NET</Description>
+    <PackageTags>mediator cqrs dotnet core fast open-source</PackageTags>
+    <RepositoryUrl>https://github.com/lurgoyf82/EasyMediator</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>EasyMediator</Title>
+  </PropertyGroup>
+
+</Project>
