@@ -15,6 +15,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>EasyMediator</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
 
 </Project>
