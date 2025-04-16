@@ -4,9 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <AssemblyName>EasyMediator</AssemblyName>
     <RootNamespace>EasyMediator</RootNamespace>
+    <PackageId>EasyMediator</PackageId>
     <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>https://github.com/lurgoyf82/</Authors>
     <Company>RaPHP.net</Company>
     <Description>A blazing fast, dependency-free mediator library for .NET</Description>
@@ -15,6 +19,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>EasyMediator</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="EasyMediator/docs/README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
